@@ -1792,6 +1792,9 @@ a.exhibitor-site{
     padding-top: 110px;
     padding-bottom: 20px;
 }
+.form-page.no-bg{
+    background-image: none;
+}
 .card-header{
     border-bottom: none !important;
 }
