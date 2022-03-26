@@ -1,0 +1,583 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+.desktop-hide {
+	display: none !important;
+}
+
+@media (min-width: 320px) and (max-width: 960px) {
+
+	body,
+	html {
+		overflow-x: hidden;
+	}
+	.section{
+		width: 90vw;
+	}
+
+	.mobile-hide {
+		display: none !important;
+	}
+
+	.desktop-hide {
+		display: block !important;
+	}
+
+	#navbar{
+		padding: 20px 10px;
+		width: 110vw;
+		left: 0px;
+		right: 0px;
+	}
+	#navbar .btn-outline{
+		border: 2px solid !important;
+		width: 40px;
+		padding: 5px 0px;
+		margin-top: 5px;
+	}
+	#navbar .btn-outline:focus,#navbar .btn-outline:hover,#navbar .btn-outline:active{
+		background-color: transparent !important; 
+		border-color: #fff !important;
+	}
+	#navbar ul.nav-menu{
+		/*margin-top: 30px;*/
+		height: 0px;
+		overflow: hidden;
+		overflow-y: scroll;
+		transition-duration: 0.5s;
+		text-align: center;
+	}
+	#navbar ul.nav-menu.show{
+		height: 90vh;
+		margin-top: 30px;
+	}
+	#navbar ul.nav-menu li{
+		font-size: 20px;
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	#navbar ul.dropdown-content{
+		width: 100%;
+		position: relative;
+		height: 0px;
+		overflow: hidden;
+		top: 0px;
+		transition-duration: 0.5s;
+		background-color: transparent;
+		box-shadow: none !important;
+		transform: rotateY(0deg) translateX(-10px);
+	}
+	#navbar ul.dropdown-content li{
+		font-weight: lighter !important;
+	}
+	#navbar ul.nav-menu li:hover ul.dropdown-content{
+		height: auto;
+		transform:  rotateY(0deg) translateX(0px);
+	}
+	.footer-top::before{
+		height: 55%;
+	}
+	.footer-top .btn{
+		padding: 10px;
+		width: 70%;
+		font-size: 15px;
+		margin-top: 65px;
+	}
+	.footer-top p{
+		margin-top: 20px !important;
+		text-align: left;
+		padding-right: 60px;
+		font-size: 11px;
+	}
+	#footer-bottom{
+		background-size: 100%;
+		padding: 30px 0;
+	}
+	#footer-bottom .col-md-7{
+	    text-align: center !important;
+	}
+	#footer-bottom .footer-socials{
+		margin-top: 20px;
+		margin-bottom: 40px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#footer-bottom section{
+		text-align: center;
+		margin: auto !important;
+	}
+	.footer-logo{
+		width: 60%;
+	}
+
+	#landing-head{
+		min-height: 100vh;
+		padding-top: 150px;
+	}
+	#landing-head canvas{
+		opacity: 0.1;
+		width: 1000px;
+	}
+
+	.landing-right{
+		text-align: center !important;
+	}
+	.landing-right img{
+		width: 80%;
+		margin-top: 40px;
+		margin-left: -20px;
+		display: none;
+	}
+	#landing-head .iswam-2021{
+		width: 100%;
+	}
+	#welcome-message::before{
+		width: 50%;
+	}
+	.welcome-right{
+		margin-top: 40px;
+	}
+	#welcome-img{
+		width: 75%;
+	}
+	.btn.btn-rounded.bg-gold-gradient{
+		font-size: 14px !important;
+		padding: 7px 20px !important;
+	}
+	#welcome-message .btn{
+		padding: 7px 20px !important;	
+	}
+	#nama_pengisi{
+		font-size: 12px;
+		width: 80%;
+	}
+	#the-biggest{
+		text-align: center;
+	}
+
+	.section_title{
+		font-size: 36px;
+	}
+	.section-text{
+		font-size: 13px !important; 
+		font-weight: 400;
+	}
+
+	#faq button{
+		font-size: 16px;
+	}
+	.accordion .card-body {
+	    font-size: 13px;
+	}
+
+	.card_ticket{
+		height: auto !important;
+	}
+	.card_ticket_body{
+		padding: 20px 5px;
+	}
+	.card_ticket_body .btn{
+		float: none;
+		width: 100%;
+		margin: 10px 0;
+		padding: 10px;
+	}
+
+	.counter-container{
+		width: 100vw;
+		padding-right: 20px;
+	}
+
+	#schedule{
+		background-size: 60% auto;
+	}
+	.schedule_table .col-12{
+		padding-left: 40px;
+		padding-right: 30px;
+	}
+	.schedule_time{
+		margin-bottom: 20px;
+	}
+
+	#page-header{
+		padding: 80px 0;
+		height: 175px;
+	}
+	.page-header-title{
+		font-size: 40px;
+	}
+	.ticket-detail-card{
+		margin-left: 0px;
+	}
+	.ticket-list-card{
+		width: 100%;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.ticket-list-img{
+		height: auto;
+		object-fit: contain;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 15px;
+	}
+	.ticket-list-detail{
+		padding: 20px 32px !important;
+	}
+	.ticket-list-quantity{
+		height: auto !important;
+		padding: 15px;
+		border-radius: 15px;
+	}
+	.td-card-section{
+		padding: 20px 10px;
+	}
+	.voucher{
+		margin-top: 20px;
+	}
+	.grand-total{
+		font-size: 15px !important;
+		font-weight: 800 !important;
+		margin-bottom: 10px;
+	}
+	.btn-ticket-buy{
+		margin-top: 50px;
+	}
+	#nav-toggle.btn-outline,#nav-toggle.btn-outline:active,#nav-toggle.btn-outline:focus{
+		border: none !important;
+	}
+	.nav-transparent.show{
+		background: linear-gradient(180deg, #41145A 0%, rgba(93, 53, 118, 0.98) 55.47%, #76538F 78.04%, #9779AE 100%);
+	}
+	#my-page{
+		padding-top: 120px;
+	}
+	#side-profile{
+		padding: 15px;
+		width: 100%;
+		border-radius: 0px;
+		margin-top: -30px;
+		margin-bottom: 24px;
+	}
+	.side-profile-name{
+		margin: 5px 0;
+		padding-top: 5px;
+	}
+	.side-profile-speciality{
+		margin-bottom: 0px;
+	}
+	#my-ticket, #my-certificate{
+	    padding-left: 15px;
+	    padding-top: 25px;
+	}
+	.btn-tabs{
+		margin-right: 10px;
+		display: inline-block;
+		font-size: 14px;
+		padding: 10px 25px;
+	}
+	.ticket-type{
+		top: 10px;
+		left: -10px;
+	}
+	.ticket-text h3{
+		margin-top: 56px;
+	}
+	.ticket-img{
+		height: 175px;
+	}
+	#form-page{
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+	.form-content .card-header, .form-content .card-body{
+		padding: 20px;
+	}
+	.form-content{
+		margin-top: 30px;
+		margin-bottom: 40px;
+		padding-right: 30px;
+	}
+	.form-content label,.form-content input{
+	    margin-bottom: 10px;
+	}
+	.btn-register, .form-content .form-check{
+		margin: 10px 0;
+	}
+	.btn-register{
+		padding: 12px;
+		width: 100%;
+	}
+	#form-page canvas{
+		opacity: 0.3;
+	}
+	#hybrid{
+		padding-top: 125px;
+		padding-bottom: 0px;
+		background-size: 200px auto;
+	}
+	.hybrid-image{
+		text-align: center;
+	}
+	.hybrid-image:after{
+		background-image: none;
+	}
+	.hybrid-image img{
+		width: 80%;
+		margin: auto;
+		height: 250px;
+		margin-bottom: 50px;
+	}
+	#hybrid h1{
+		font-size: 36px;
+		margin-bottom: 30px;
+	}
+	.footer-socials-container{
+		text-align: center !important;
+	}
+	.footer-link-head, .footer-link li{
+		margin: 15px;
+		text-align: left;
+	}
+	.copyright{
+		margin-top: 0px;
+	    margin-bottom: 40px;
+	    text-align: center;
+	}
+	#flower-left, #flower-right{
+		width: 40vw;
+	}
+	.session-title,.session-subtitle{
+		text-align: center !important;
+		margin-top: 5px !important;
+	}
+	.session-card{
+		background-size: cover;
+		background-position: center;
+		height: auto;
+		padding: 50px 25px;
+	}
+	.session-description{
+		text-align: center !important;
+		margin-top: 0px !important;
+	}
+	.session-pengisi{
+		margin-top: 25px;
+	}
+	#welcome-message::before{
+		height: 250px;
+	}
+	#welcome-message h2{
+		text-align: center;
+	}
+	.session-join{
+		margin-top: 25px !important;
+	}
+	#schedule-page .btn-tabs{
+		margin-bottom: 20px;
+	}
+	.class-tab-container{
+	    margin: auto;
+	    width: 100%;
+	    margin-top: 0px;
+	}
+	.about-img{
+		width: 100%;
+		margin-bottom: 25px;
+		height: 200px;
+	}
+	.about-logos, .about-text{
+		width: 100%;
+	}
+	.about-logos img{
+		margin-right: 5px;
+		margin-bottom: 5px;
+		height: 50px;
+	}
+	#schedule-page{
+		padding-top: 10px;
+	}
+	.schedule-tab-container{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.exhibitor{
+		padding: 10px;
+		margin-bottom: 25px;
+		min-height: 300px;
+	}
+	.exhibitor-foot a{
+		margin: 15px;
+	}
+	.exhibitor-logo{
+		height: 70px;
+		margin-bottom: 10px;
+	}
+	.exhibitor-name, .exhibitor-desc{
+		margin-bottom: 10px;
+	}
+	#exhibit-why, #exhibit-how{
+		padding-top: 120px;
+	}
+	.why-text{
+		padding: 15px;
+		font-size: 14px;
+	}
+	#exhibit-why h2, #exhibit-how h2{
+		font-size: 35px;
+	}
+	.why-img{
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.why-panel{
+		height: auto;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	.how-text{
+		margin-bottom: 24px;
+	}
+	.how-img{
+		margin: 20px 0;
+	}
+	#speaker{
+		padding-top: 90px;
+		padding-bottom: 0px !important;
+	}
+	.speaker-title{
+	    padding: 10px;
+	    text-align: center;
+	}
+	.speaker-title h1{
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	.speaker-title p{
+		font-size: 14px;
+	}
+	.speakers{
+		height: auto;
+	}
+	.speaker-slide, .speaker-slide img{
+		height: 400px;
+	}
+	.speaker-detail{
+		height: 280px;
+	}
+	.speaker-detail p{
+		line-height: 16px;
+	}
+	.speaker-thumb{
+		margin-left: 15px;
+		margin-right: 15px;
+		padding: 0px;
+		overflow-y: visible;
+		max-height: 1000vh !important;
+	}
+	#abstract{
+		padding-top: 140px;
+		height: auto;
+		padding-bottom: 0px;
+	}
+	.abstract-title{
+		margin-bottom: 24px;
+		font-size: 35px;
+	}
+	.abstract-text{
+		margin-bottom: 16px;
+		font-size: 14px;
+	}
+	.abstract-email{
+		width: 100%;
+		font-size: 24px;
+	}
+	#photo{
+	    padding: 40px 0;
+	}
+	.photo{
+	    margin-bottom: 20px;
+	}
+	.photo-landscape{
+		height: 15vh;
+	}
+	.photo-text{
+		font-size: 13px;
+	}
+	.photo-potrait{
+		height: 35vh;
+	}
+	#photo .col-6{
+		padding: 10px;
+	}
+	#video{
+		padding: 25px 0;
+	}
+	.video-iframe{
+	    height: 180px;
+	}
+	.video-title{
+	    font-size: 32px;
+	}
+	.video-container::before{
+		height: 75%;
+	}
+	.payment-bank-detail{
+		padding-left: 0px;
+	}
+	.payment-va{
+		font-size: 24px;
+	}
+	.payment-va-name{
+		white-space: pre;
+		top: 0px;
+	}
+	.payment-copy{
+		top: auto;
+		bottom: 20px;
+	}
+	#hybrid p, .about-text, .exhibitor-desc{
+		font-size: 13px !important;
+	}
+
+	/* width */
+	::-webkit-scrollbar {
+	  width: 0px;
+	}
+
+	#navbar ul.nav-menu li{
+		margin-left: 0px;
+	}
+	.schedule-tab{
+		width: 80px;
+		margin: 0px !important;
+		font-size: 10px;
+		display: inline-block !important;
+	}
+	.schedule-tab span{
+		font-size: 24px;
+		font-weight: 700;
+	}
+	.about-text, .about-logos{
+		padding-left: 30px;
+	}
+
+	#qna{
+		bottom: 120px;
+	}
+	.sidemenu{
+		padding: 20px;
+	}
+	.sidemenu li{
+		margin-bottom: 0px;
+		margin-top: 10px;
+	}
+	.gt{
+		padding: 0px;
+	}
+	.btn-edit{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}

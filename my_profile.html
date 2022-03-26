@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWAM.id</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div id="navbar" class="row nav-white">
+        <section class="section row">
+            <div class="col-md-2 col-8">
+                <a href="index.html">
+                    <img src="assets/images/logo-white.png" class="nav-logo">
+                </a>
+            </div>
+            <div class="col-4 desktop-hide text-right">
+                <button type="button" class="btn btn-outline btn-outline-light" id="nav-toggle"><img src="assets/images/ic-menu.svg"></button>
+            </div>
+            <div class="col-md-10 text-right text-white">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="sponsorship.html">Sponsorship</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    </li>
+                    <li class="dropdown-trigger">
+                        <a href="#">Hi, Arnold <img src="assets/images/profile.png" class="nav-profile-icon"></a>
+                        <ul class="dropdown-content text-center text-grey">
+                            <li><a href="my_profile.html">My Profile</a></li>
+                            <li><a href="my_event.html">My Event</a></li>
+                            <li><a href="my_purchase.html">Purchase History</a></li>
+                            <li><a href="login.html">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- NAVBAR END -->
+    <!-- CONTENT -->
+    <div class="section content" data-aos="fade">
+        <div class="row">
+            <div class="col-md-3 col-12 bg-white" id="side-profile">
+                <div class="row">
+                    <div class="col-md-12 col-3">
+                        <img src="assets/images/side-profile.png" class="side-img">
+                    </div>
+                    <div class="col-md-12 col-9">
+                        <h2 class="side-profile-name">Dr. Dzulfikri</h2>
+                        <p class="side-profile-speciality text-gold">Dermatologist</p>
+                    </div>
+                    <div class="col-md-12 col-12">
+                        <ul class="sidemenu">
+                            <li><a href="my_profile.html"><img src="assets/images/ic-my-profile.svg"> User Profile</a></li>
+                            <li><a href="my_event.html"><img src="assets/images/ic-my-ticket.svg"> My Event</a></li>
+                            <li><a href="my_purchase.html"><img src="assets/images/ic-my-purchase.svg"> Purchase History</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 col-12">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <form class="row">
+                            <div class="col-md-8 col-12"><h2 class="page-title">Account Detail</h2></div>
+                            <div class="col-md-4 col-12 text-right"><button class="btn btn-primary btn-rounded btn-edit"><i class="fa fa-edit"></i> Edit Profile</button></div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <label>Full Name (with degree)</label>
+                                    <input type="text" name="full_name" class="form-control" placeholder="dr Novia Yulyanti, SpKK">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" name="email" class="form-control" placeholder="via04@gmail.com">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" name="password" class="form-control" placeholder="type password">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <label>Country</label>
+                                    <select class="form-control" name="country" required="">
+                                        <option value="">- Select your country -</option>
+                                        <option>Indonesia</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <label>No. Handphone</label>
+                                    <input type="text" name="phone" class="form-control" placeholder="081333339489">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <label>Speciality</label>
+                                    <select class="form-control" name="speciality" required="">
+                                        <option value="">- Select your speciality -</option>
+                                        <option>Dermatologist</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <label>No. IDI/STR (for Indonesian Physician)</label>
+                                    <input type="text" name="idi_str" class="form-control" placeholder="53164171889">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="form-group">
+                                    <label>Company</label>
+                                    <input type="text" name="company" class="form-control" placeholder="Klinik Sehat">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <label>Address</label>
+                                    <input type="text" name="address" class="form-control" placeholder="Jl. Raya">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-group">
+                                    <label>City</label>
+                                    <input type="text" name="city" class="form-control" placeholder="Surabaya">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT END -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/91cbc167cc.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/canvas.js"></script> -->
+</body>
+
+</html>
