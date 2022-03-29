@@ -1,14 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
-@font-face{
-    font-family: 'Avenir';
-    src: url('../fonts/avenir.otf');
-}
-.red-hat {
-    font-family: 'Avenir', sans-serif;
-}
-.roboto {
-    font-family: 'Roboto';
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
 }
 
 #img_union {
@@ -87,12 +80,12 @@ a:hover{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #56306B;
+  background: #2f59b8;
 }
 
 body,
 html {
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     background-color: #E5E5E5;
 }
@@ -114,7 +107,8 @@ html {
     padding: 15px 0;
     z-index: 2000000;
     transition-duration: 0.5s;
-    font-family: 'roboto';
+    font-family: 'Montserrat';
+    font-weight: 400 !important;
     box-shadow: 0px -3px 24px 1px rgba(0, 0, 0, 0.14);
 }
 .nav-purple{
@@ -251,7 +245,7 @@ html {
 .footer-link-head{
     font-size: 13px;
     font-weight: 500;
-    font-family: 'roboto';
+    font-family: 'Montserrat';
     margin: 25px 0;
 }
 .footer-link{
@@ -261,7 +255,7 @@ html {
 .footer-link li{
     list-style: none;
     font-size: 12px;
-    font-family: 'roboto';
+    font-family: 'Montserrat';
     margin-bottom: 12px;
 }
 .footer-link li a{
@@ -377,20 +371,20 @@ html {
     font-weight: 400;
 }
 #landing-head h2{
-    font-family: 'roboto';
+    font-family: 'Montserrat';
     font-size: 24px;
     margin-top: 20px;
 }
 #landing-head h2 i{
     font-size: 20px;
-    font-family: 'Avenir';
+    font-family: 'Montserrat';
     font-weight: 400;
     margin-left: 100px;
 }
 #landing-head .btn{
     font-size: 20px;
     font-weight: 400;
-    font-family: 'roboto';
+    font-family: 'Montserrat';
     margin-top: 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
 }
@@ -825,7 +819,7 @@ select.form-control{
     margin-bottom: 0px !important;
 }
 .btn-ticket{
-    font-family: 'roboto';
+    font-family: 'Montserrat';
     font-size: 15px;
     padding: 15px;
     font-weight: 500;
@@ -1116,7 +1110,7 @@ input[type=radio] {
 }
 .btn-questionnaire{
     font-size: 15px;
-    font-family: 'roboto';
+    font-family: 'Montserrat';
     font-weight: 500;
     padding: 15px 60px;
 }
@@ -1174,7 +1168,7 @@ input[type=radio] {
 }
 .form-content label,.form-content input{
     margin-bottom: 20px;
-    font-family: 'roboto';
+    font-family: 'Montserrat';
     font-size: 15px;
     font-weight: 400;
 }
@@ -1182,7 +1176,7 @@ input[type=radio] {
     padding: 15px 80px;
     font-size: 15px;
     font-weight: 400;
-    font-family: 'roboto';
+    font-family: 'Montserrat';
     margin-left: 10px;
 }
 .btn-register, .form-content .form-check{
@@ -1196,7 +1190,7 @@ input[type=radio] {
     padding: 10px;
     font-size: 18px;
     margin-top: 10px;
-    font-family: 'roboto';
+    font-family: 'Montserrat';
 }
 #hybrid{
     background-image: url('../images/hybrid-header.png');
@@ -2008,4 +2002,93 @@ textarea{
 }
 .more-ticket .ticket-list-card:hover{
     background-color: #DBF0FE;
+}
+
+.home-col{
+    padding: 0px;
+    transition-duration: 0.5s;
+    position: relative;
+}
+.home .bg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale() blur(1px);
+    transition-duration: 0.5s;
+}
+.home-col:hover .bg{
+    filter: none;
+}
+.home-card{
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 18px;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    width: 80%;
+    margin: auto;
+    transition-duration: 0.5s;
+    height: 280px;
+}
+.hc-img{
+    width: 100%;
+    height: 110px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    object-fit: contain;
+}
+.home-card h5{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.home-card p{
+    font-size: 16px;
+    margin-top: 0px !important;
+    font-weight: 400;
+}
+.hc-more{
+    height: 0;
+    opacity: 0;
+    transition-duration: 1s;
+}
+.home-col:hover .home-card{
+    background: linear-gradient(180deg, rgba(219, 240, 254, 0) -28.88%, rgba(0, 145, 250, 0.14) 18.03%, #0091FA 69.5%);
+    bottom: 0px;
+    width: 100%;
+    border-radius: 0px;
+    height: 90%;
+    padding: 50px;
+    text-align: left !important;
+}
+.home-col:hover .home-card *{
+    color: #fff !important;
+}
+.home-col:hover .hc-more{
+    height: auto;
+    opacity: 1;
+}
+.home-col:hover .hc-coming{
+    display: none;
+}
+.home-col:hover .hc-img{
+    opacity: 0;
+}
+.home-col:hover .home-card h5{
+    font-size: 36px !important;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.home-col .btn{
+    padding: 8px 25px !important;
+    transition-duration: 0.5s;
+}
+.home-col:hover .btn{
+    background: #CEAB71 !important ;
+}
+.home{
+    height: 100vh;
+    overflow-y: hidden;
 }

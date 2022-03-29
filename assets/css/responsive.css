@@ -580,4 +580,46 @@
 		width: 100%;
 		margin-bottom: 20px;
 	}
+	.home-col:first-child{
+		margin-top: 56px;
+	}
+	.home-col{
+		height: 80vh;
+	}
+	.home-card{
+	    background: linear-gradient(180deg, rgba(219, 240, 254, 0) -28.88%, rgba(0, 145, 250, 0.14) 18.03%, #0091FA 69.5%);
+	    bottom: 0px;
+	    width: 100%;
+	    border-radius: 0px;
+	    height: 100%;
+	    padding: 50px;
+	    text-align: left !important;
+	}
+	.home-col .home-card *{
+	    color: #fff !important;
+	}
+	.home-col .hc-more{
+	    height: auto;
+	    opacity: 1;
+	}
+	.home-col .hc-img{
+	    opacity: 1;
+	}
+	.home-col .home-card h5{
+	    font-size: 36px !important;
+	    margin-bottom: 20px;
+	    margin-top: 40px;
+	}
+	.home-col .btn{
+	    transition-duration: 0.5s;
+	}
+	.home-col .btn{
+	    background: #CEAB71 !important ;
+	}
+	.home-col .bg{
+		height: 80vh;
+	}
+	.home{
+		overflow-y: auto;
+	}
 }

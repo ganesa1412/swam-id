@@ -1,4 +1,13 @@
 $(document).ready(function(){
+    $('.home-col').on('mouseover', function(){
+        $(this).addClass('col-md-3');
+        $(this).removeClass('col-md');
+    })
+    $('.home-col').on('mouseout', function(){
+        $(this).addClass('col-md');
+        $(this).removeClass('col-md-3');
+    })
+
     AOS.init({
         duration: 1000
     });
