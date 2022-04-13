@@ -622,4 +622,65 @@
 	.home{
 		overflow-y: auto;
 	}
+	#home-banner{
+		margin-top: 90px;
+	}
+	#home-banner .btn{
+		width: 80%;
+		margin: auto;
+		transform: translateY(72px);
+	}
+	#home-about, #home-video, #home-faq{
+		background-image: none;
+	}
+	#counter{
+		transform: none;
+		width: 100%;
+		padding: 10px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.counter-unit{
+		margin: 10px;
+	}
+	.gi-top-center img, .gi-bottom-center img{
+		transform: none;
+	}
+	#home-gallery .col-md-3{
+		padding: 0px;
+	}
+	.gallery-img img{
+		height: 150px;
+	}
+	#home-video iframe{
+		height: 250px;
+	}
+	.ti-image img{
+		float: none;
+		margin: auto;
+		display: flex;
+		transform: none;
+		margin-top: 10px;
+		height: 300px;
+		width: 100%;
+	}
+	.ti-content{
+		padding: 20px !important;
+		padding-top: 100px;
+	}
+	.insta-half img{
+		margin-bottom: 0px;
+		margin-top: 32px;
+	}
+	#footer::after{
+		display: none;
+	}
+	#footer{
+		text-align: center;
+	}
+	#footer span{
+		width: 80%;
+		text-align: left;
+		margin-bottom: 0px;
+	}
 }

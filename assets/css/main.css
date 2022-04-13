@@ -88,6 +88,9 @@ html {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     background-color: #E5E5E5;
+    background-image: url(../images/bg-radial.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .section{
@@ -147,6 +150,9 @@ html {
     padding: 0px;
     font-weight: 400;
     position: relative;
+}
+#navbar ul.nav-menu li a.btn:hover{
+    color: #fff !important;
 }
 #navbar ul.nav-menu li.dropdown-trigger{
     margin-top: 12px;
@@ -1777,7 +1783,7 @@ a.exhibitor-site{
     margin-left: 17vw;
 }*/
 .form-page{
-    background-image: url(../images/bg.png);
+    background-image: url(../images/bg-flower.png);
     min-height: 100vh;
     width: 100%;
     background-size: cover;
@@ -2091,4 +2097,253 @@ textarea{
 .home{
     height: 100vh;
     overflow-y: hidden;
+}
+
+/*MICROSITE*/
+#home-banner{
+    margin-top: 64px;
+    width: 100vw;
+    min-height: calc(100vw * 0.644);
+    overflow: hidden;
+    background-image: url(../images/microsite/home-banner.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.btn-banner{
+    text-transform: uppercase;
+    font-size: 24px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+    margin-top: calc(100vw * 0.38);
+}
+#counter{
+    transform: translateY(-100px);
+    width: 60vw;
+    margin: auto;
+    padding: 30px 60px;
+    background: linear-gradient(359.54deg, #A17704 0.03%, #CEAB71 130.27%);
+    border-radius: 25px;
+}
+.counter-unit{
+    background-color: #fff;
+    color: #CEAB71;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 16px;
+}
+.cu-number, .cu-caption{
+    display: block;
+}
+.cu-number{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+}
+.cu-caption{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+#home-about{
+    background-image: url(../images/microsite/home-about.png);
+    background-size: 100% 100%;
+}
+.home-about-text{
+    padding-top: 0px;
+    padding-bottom: 88px;
+}
+.home-about-text h2{
+    margin-bottom: 80px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+}
+.home-about-text p{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 150.9%;
+}
+#home-gallery{
+    background-image: url(../images/microsite/bg-green.png);
+    background-size: cover;
+    padding: 135px 0;
+    text-align: center;
+}
+.gallery-img img{
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+    height: 350px;
+    margin: 18px 0;
+    object-fit: cover;
+    opacity: 0.9;
+    transition-duration: 0.5s;
+}
+.gallery-img img:hover{
+    opacity: 1;
+}
+.gi-top-center img{
+    transform: scale(1.2);
+    transform-origin: bottom;
+}
+.gi-bottom-center img{
+    transform: scale(1.2);
+    transform-origin: top;
+}
+#home-video{
+    background-image: url(../images/microsite/home-video.png);
+    background-size: 100% 100%;
+    padding: 75px 0;
+}
+#home-video h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 64px;
+}
+#home-video iframe{
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+}
+#home-testimony{
+    background: linear-gradient(359.54deg, #14695A 0.03%, #72BBAD 130.27%);
+    padding: 70px 0;
+}
+#home-testimony h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 75px;
+}
+.testimony-item{
+    width: 90%;
+    margin: auto;
+    border: 2px solid #AE8522;
+    border-radius: 25px;
+    /*border-image-source: linear-gradient(180deg, #AE8522 0%, #CEAB71 100%);*/
+}
+.swiper-slide{
+    padding: 80px 0;
+}
+.testimony-item .ti-content{
+    padding: 100px 80px;
+}
+.testimony-item img{
+    width: 80%;
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+    float: right;
+    transform: scale(1.3);
+}
+.testimony-item h4{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+.testimony-item h5{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.testimony-item p{
+    margin-top: 26px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 137.9%;
+
+    text-align: justify;
+}
+#home-insta{
+    padding: 80px 0;
+    background-color: #fff;
+}
+#home-insta img{
+    width: 100%;
+    border-radius: 25px;
+    filter: brightness(1);
+    transition-duration: 0.5s;
+}
+#home-insta img:hover{
+    filter: brightness(0.6);
+}
+.insta-half img{
+    margin-bottom: 32px;
+}
+#home-faq{
+    background-image: url(../images/microsite/home-faq.png);
+    background-size: cover;
+    background-position: center;
+    padding: 125px 0;   
+}
+#home-faq button,#home-faq button:hover{
+    color: #000 !important;
+    text-decoration: none !important;
+}
+#home-faq h2{
+    margin-bottom: 90px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+}
+.faq-card{
+    border-radius: 25px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.accordion .card-header .btn{
+    position: relative;
+}
+.accordion .card-header .btn img.faqmin, .accordion .card-header .btn[aria-expanded=true] img.faqplus{
+    opacity: 0;
+}
+.accordion .card-header .btn img.faqplus, .accordion .card-header .btn[aria-expanded=true] img.faqmin{
+    opacity: 1;
+}
+.accordion .card-header .btn img{
+    position: absolute;
+    right: 20px;
+    bottom: 2px;
+}
+#footer{
+    position: relative;
+    padding: 37px 0;
+    background: linear-gradient(359.54deg, #14695A 0.03%, #72BBAD 130.27%);
+}
+.footer-info:not(.footer-info:last-child){
+    margin-bottom: 16px;
+}
+.footer-info *{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-info img{
+    width: 25px;
+    margin-right: 20px;
+}
+.footer-info span{
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+#footer::after{
+    content: "";
+    width: 280px;
+    height: 280px;
+    background-image: url(../images/microsite/foot.png);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.swiper-prev{
+    transform: translateX(-40px) translateY(100px) scale(1.3) !important;
+}
+.swiper-next{
+    transform: translateX(40px) translateY(100px) scale(1.3) !important;
 }
