@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 .montserrat {
     font-family: 'Montserrat', sans-serif;
@@ -2202,7 +2203,7 @@ textarea{
     line-height: 49px;
     margin-bottom: 64px;
 }
-#home-video iframe{
+#home-video iframe, #home-broaden iframe{
     width: 100%;
     height: 500px;
     border-radius: 25px;
@@ -2346,4 +2347,95 @@ textarea{
 }
 .swiper-next{
     transform: translateX(40px) translateY(100px) scale(1.3) !important;
+}
+
+/*MICROSITE 2*/
+#footer2{
+    padding: 37px 0;
+}
+#footer2 span{
+    color: #494A4A !important;
+}
+.foot-socials a{
+    margin: 0 10px;
+}
+#home-banner2{
+    margin-top: 64px;
+    width: 100vw;
+    min-height: calc(100vw * 0.593);
+    overflow: hidden;
+    background-image: url(../images/microsite2/home-banner.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#home-broaden{
+    padding: 110px 0;
+    background-image: url(../images/microsite2/home-broaden.png);
+    background-size: 100% auto;
+    background-position: center;
+}
+.broaden-head{
+    font-family: 'Playfair Display', serif;
+    color: #A17704;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 67px;
+    width: 90%;
+    margin: auto;
+}
+.broaden-text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    color: #494A4A;
+    margin: 60px auto;
+    width: 93%;
+}
+.get-col{
+    text-align: center;
+    margin-top: 70px;
+}
+.get-img{
+    width: 82px;
+    height: 82px;
+    object-fit: contain;
+    margin-bottom: 22px;
+}
+.get-caption{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    color: #494A4A;
+    margin: auto;
+}
+.broaden-head.mt{
+    margin-top: 100px;
+}
+#home-counter2{
+    background-image: url(../images/microsite2/home-counter.png);
+    padding: 43px 0;
+    background-color: #2D9CDB;
+}
+#home-counter2 h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 47px;
+    margin-bottom: 22px;
+    color: #DBF0FE;
+}
+.insta2{
+    background: none !important;
+}
+.insta2 .broaden-head{
+    margin-top: 58px;
+    margin-bottom: 98px;
+}
+.insta2 p{
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #494A4A;
 }

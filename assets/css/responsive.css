@@ -652,7 +652,7 @@
 	.gallery-img img{
 		height: 150px;
 	}
-	#home-video iframe{
+	#home-video iframe, #home-broaden iframe{
 		height: 250px;
 	}
 	.ti-image img{
@@ -672,15 +672,41 @@
 		margin-bottom: 0px;
 		margin-top: 32px;
 	}
-	#footer::after{
+	#footer::after, #footer2::after{
 		display: none;
 	}
-	#footer{
+	#footer, #footer2{
 		text-align: center;
 	}
-	#footer span{
+	#footer span, #footer2 span{
 		width: 80%;
 		text-align: left;
 		margin-bottom: 0px;
+	}
+	.broaden-head{
+		font-size: 32px;
+	}
+	.counter2{
+		padding-left: 40px;
+	}
+	#home-counter2{
+		position: relative;
+	}
+	#home-counter2::before{
+		position: absolute;
+		content: "";
+		background-color: #2D9CDB;
+		left: 0px;
+		right: 0px;
+		opacity: 0.7;
+		top: 0px;
+		bottom: 0px;
+	}
+	.foot-socials{
+		margin-bottom: 40px;
+	}
+	.broaden-text{
+		margin: 30px auto;
+		width: 100%;
 	}
 }

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWAM.id</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div id="navbar" class="row nav-white">
+        <section class="section row">
+            <div class="col-md-2 col-8">
+                <a href="index.html">
+                    <img src="assets/images/logo-white.png" class="nav-logo">
+                </a>
+            </div>
+            <div class="col-4 desktop-hide text-right">
+                <button type="button" class="btn btn-outline btn-outline-light" id="nav-toggle"><img src="assets/images/ic-menu.svg"></button>
+            </div>
+            <div class="col-md-10 text-right text-white">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="sponsorship.html">Sponsorship</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    </li>
+                    <li class="dropdown-trigger">
+                        <a href="#">Hi, Arnold <img src="assets/images/profile.png" class="nav-profile-icon"></a>
+                        <ul class="dropdown-content text-center text-grey">
+                            <li><a href="my_profile.html">My Profile</a></li>
+                            <li><a href="my_event.html">My Event</a></li>
+                            <li><a href="my_purchase.html">Purchase History</a></li>
+                            <li><a href="login.html">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- NAVBAR END -->
+    <!-- CONTENT -->
+    <div id="home-banner2"></div>
+    <div id="home-broaden">
+        <div class="section">
+            <div class="row">
+                <div class="col-md-10 offset-md-1 text-center" data-aos="fade">
+                    <h2 class="broaden-head">Broaden your aesthetic horizon with SWAM 2022!</h2>
+                    <p class="broaden-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, lacus et felis ut. Quis augue fringilla a facilisi. Semper lacus feugiat ornare mattis est congue eu lectus sit. Rhoncus, in posuere etiam senectus. Nunc hendrerit.</p>
+                </div>
+                <div class="col-md-10 offset-md-1 text-center" data-aos="fade">
+                    <h2 class="broaden-head">What Will You Get?</h2>
+                </div>
+                <div class="col-md-3 col-6 offset-md-3 get-col" data-aos="fade">
+                    <img src="assets/images/microsite2/get1.svg" class="get-img">
+                    <p class="get-caption">Up-to-date seminar materials</p>
+                </div>
+                <div class="col-md-3 col-6 get-col" data-aos="fade">
+                    <img src="assets/images/microsite2/get2.svg" class="get-img">
+                    <p class="get-caption">Qualified speakers & trainers</p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3 col-6 offset-md-3 get-col" data-aos="fade">
+                    <img src="assets/images/microsite2/get3.svg" class="get-img">
+                    <p class="get-caption">A business event for a variety of sponsors that is engaged in the field of medical aesthetic</p>
+                </div>
+                <div class="col-md-3 col-6 get-col" data-aos="fade">
+                    <img src="assets/images/microsite2/get4.svg" class="get-img">
+                    <p class="get-caption">Aesthetic knowledge & medical skill</p>
+                </div>
+                <div class="col-md-10 offset-md-1 text-center" data-aos="fade">
+                    <h2 class="broaden-head mt">Who Should Attend?</h2>
+                    <p class="broaden-text">SWAM is recognized both national and internationally, which makes it a great place to meet fellow professionals who are equally passionate in the field of aesthetic medicine. Our event provides fresh and constantly upgraded materials that is beneficial for you to either strengthen your knowledge or acquire the key for running a business in the aesthetic field.</p>
+                    <iframe src="https://www.youtube.com/embed/GYUcRTsz2PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="home-counter2">
+        <div class="section" data-aos="fade">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Counting Days</h2>
+                </div>
+                <div class="col-md-8 offset-md-2 col-12 row counter2">
+                    <div class="col-md-3 col-6">
+                        <div class="counter-unit">
+                            <span class="cu-number" id="cu-day">0</span>
+                            <span class="cu-caption">Days</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="counter-unit">
+                            <span class="cu-number" id="cu-hour">0</span>
+                            <span class="cu-caption">Hours</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="counter-unit">
+                            <span class="cu-number" id="cu-minute">0</span>
+                            <span class="cu-caption">Minutes</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="counter-unit">
+                            <span class="cu-number" id="cu-second">0</span>
+                            <span class="cu-caption">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="home-insta" class="insta2">
+        <div class="section">
+            <div class="row" data-aos="fade">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <p>Upcoming Event</p>
+                    <h2 class="broaden-head">WeSWAM 2022 – SEMARANG 11-13 Maret 2022</h2>
+                </div>
+                <div class="col-md-6 col-12">
+                    <a href="https://www.instagram.com/p/Cbcjb1VJT5q/" target="_blank"><img src="assets/images/microsite/insta.jpg"></a>
+                </div>
+                <div class="col-md-3 col-6 insta-half">
+                    <a href="https://www.instagram.com/p/Cbcjb1VJT5q/" target="_blank"><img src="assets/images/microsite/insta.jpg"></a>
+                    <a href="https://www.instagram.com/p/Cbcjb1VJT5q/" target="_blank"><img src="assets/images/microsite/insta.jpg"></a>
+                </div>
+                <div class="col-md-3 col-6 insta-half">
+                    <a href="https://www.instagram.com/p/Cbcjb1VJT5q/" target="_blank"><img src="assets/images/microsite/insta.jpg"></a>
+                    <a href="https://www.instagram.com/p/Cbcjb1VJT5q/" target="_blank"><img src="assets/images/microsite/insta.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer2" class="bg-white">
+        <div class="row px-4">
+            <div class="col-md-3 offset-md-1 col-12">
+                <img src="assets/images/microsite/footer1.png" width="95%">
+
+                <div class="foot-socials text-center">
+                    <a href="#"><img src="assets/images/microsite2/foot-ig.svg"></a>
+                    <a href="#"><img src="assets/images/microsite2/foot-fb.svg"></a>
+                    <a href="#"><img src="assets/images/microsite2/foot-yt.svg"></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 pt-4 footer-contact">
+                <div class="footer-info">
+                    <img src="assets/images/microsite2/foot-map.svg">
+                    <span>PT. Pedestri Global Medicom (PGM)<br>Jl. Dharmahusada Indah No. 108G, Surabaya</span>
+                </div>
+                <div class="footer-info">
+                    <img src="assets/images/microsite2/foot-phone.svg">
+                    <span>031-5058199</span>
+                </div>
+                <div class="footer-info">
+                    <img src="assets/images/microsite2/foot-mail.svg">
+                    <span>secretariat@pt-pgm.com</span>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4 col-12">
+                <img src="assets/images/microsite/footer2.png" width="95%">
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/91cbc167cc.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/canvas.js"></script> -->
+    
+    <!-- MICROSITE SCRIPTS -->
+    <script src="assets/js/microsite.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+</body>
+
+</html>
